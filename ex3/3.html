@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Formulaire</title>
+    <style>div {
+        margin: auto;
+        width: 300px
+    }</style>
+</head>
+<body>
+<form action="4.html">
+    <fieldset>
+        <legend align="center">Info Perso</legend>
+        <div>
+            Votre Nom <input type="text" placeholder="Nom"><br>
+            Votre Prenom <input type="text" placeholder="Prenom"><br>
+            Age<input type="number" placeholder="Age"><br>
+            Date de Naissance<input type="date"><br>
+            Email<input type="email" placeholder="Email"><br>
+            Url de l'etudiant<input type="url" placeholder="Url"><br>
+            Adresse<textarea rows="4" cols="50" placeholder="Adresse"></textarea><br>
+            Mot de passe<input type="password" placeholder="mdp" required><br>
+            Retapez votre mot de passe<input type="password" placeholder="mdp" required><br></div>
+    </fieldset>
+    <fieldset>
+        <legend align="center">Gestion des groupes des options</legend>
+        <div>Votre groupe <input type="radio" name="grp" >Grp1
+            <input type="radio" name="grp">Grp2
+            <input type="radio" name="grp">Grp3
+            <br>
+            Num de carte Etudiant<input type="text" placeholder="Votre num de Carte "><br>
+            Choisissez les options que vous desirez <select size="3">
+                <option >option1
+                <option>option2
+                <option>option3
+                <option>option4
+            </select></div>
+    </fieldset>
+    <div>
+       <button type="submit">Submit</button>
+    <button type="reset">Reset</button></div>
+</form>
+</body>
+</html>
